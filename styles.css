@@ -1,0 +1,25 @@
+#container{
+    height:200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #E5F5FB;
+}
+
+.bar{
+    width: 10px;
+    background-color: #6B5B95;
+    margin: 1px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}

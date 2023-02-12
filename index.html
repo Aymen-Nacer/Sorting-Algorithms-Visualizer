@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+    <h1>Sorting Visualizer</h1>
+    <h2>Bubble Sort</h2>
+    <div id="container"></div>
+
+    <hr>
+
+    <div>
+        <button onClick="init()">init</button>
+        <button onClick="play()">play</button>
+    </div>
+
+    <div class="button-container">
+      <button class= "bubble_sort" type="button" name="button">Bubble Sort</button>
+      <button class = "selection_sort" type="button" name="button">Selection Sort</button>
+    </div>
+    <p>Change Array Size</p>
+    <input class = "slider" type="range" min="1" max="100" value="50">
+    <p>Change Sorting Speed</p>
+    <input class = "speedSlider" type="range" min="1" max="2000" value="50">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
